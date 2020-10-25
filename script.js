@@ -58,17 +58,66 @@ if (names.length>4) {
 //end of a second trial 
 
 let colors = ["red","blue","green","purple","black"];
-console.log(colors)
+console.log(colors);
 
 let trueOrFalse = colors.length > 3;
-console.log(trueOrFalse)
+console.log(trueOrFalse);
 
 let object = {
     colors: colors,
     hasManyColors: trueOrFalse,
+};
+
+console.log(object);
+
+
+//excercise 4 
+
+let numberCount1 = 10;
+
+console.log("First Loop")
+for (let i = 0; i < numberCount1; i++) {
+    console.log(i)
+};
+
+console.log("Second Loop")
+for (let i = 1; i <= numberCount1; i++) {
+    console.log(i)
+};
+
+console.log("Third Loop")
+for (i=1; i <= 20; i++) {
+ if (i % 2 === 0) {
+    console.log(i);
 }
+};
 
-console.log(object)
+console.log("Print Function")
+function printNumbersTill (i) {
+    for (i=1; i <= 20; i++)
+    console.log(i);
+};
+
+printNumbersTill(1);
 
 
+console.log("Greeting Function")
+let getGreetingTo = myName => {
+    console.log("Hello " + myName + " !")
+};
 
+getGreetingTo("Eliška")
+
+console.log("Function for loops and arrays n.1")
+let printValues = (array) => {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+};
+printValues([0, 3, 6, 7, 9]);
+
+console.log("Function for loops and arrays n.2")
+let myNumbers = [0, 3, 6, 7, 9] 
+myNumbers.forEach((number) => {
+    console.log(number);
+});
