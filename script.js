@@ -1,3 +1,7 @@
+//excercise 3 - as I have already added a script file in a previous excercise and checked the Developer console in the browser, I'm just logging my name now and going live
+
+console.log("Eliška Šibrová")
+
 // workshop, excercise 2
 
 let age = 2020-1995;
